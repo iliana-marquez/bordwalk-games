@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
+/* CSS Variables */
+/* root pseudoclass */
+:root {
+    --primary-font: 'Inter' , sans-serif;
+    --secondary-font: 'Macondo' , cursive;
+    --primary-color: #416a8e;
+    --secondary-color: #aa9581;
+    --highlight-color: #416a8e;
+    --highlight-color-light: #7a9fc2;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +23,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--primary-font);
 }
 
-h1 {
-    font-family: 'Macondo', serif;
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
