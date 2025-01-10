@@ -37,7 +37,17 @@ h3 {
     color: var(--highlight-color);
 }
 
-.container,
+/* Navigation */
+#navbar{
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Attributes to check bootstrap grid structure */
+/* .container,
 .row {
     border: 2px solid black;
 }
@@ -45,4 +55,4 @@ h3 {
 .col-12 {
     background-color: grey;
     border: 2px solid green;
-}
+} */
