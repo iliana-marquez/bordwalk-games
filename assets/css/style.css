@@ -24,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: var(--primary-font);
+    padding-top: 58px; /* pushes the top of the header down under the fixed navbar */
 }
 
 h1,
