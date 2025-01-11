@@ -31,7 +31,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1, 
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -63,8 +71,24 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/* Services */
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
 
-/* Attributes to check bootstrap grid structure */
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+/* grid visualization CSS for testing */
+
 /* .container,
 .row {
     border: 2px solid black;
@@ -74,3 +98,32 @@ h3 {
     background-color: grey;
     border: 2px solid green;
 } */
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up*/
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up*/
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Extra large devices (laptops, 1200px and up*/
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+/* Extra large devices (laptops, 1400px and up*/
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 194px;
+    }
+}
