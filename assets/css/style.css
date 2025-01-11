@@ -8,7 +8,7 @@
     --primary-color: #416a8e;
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
-    --highlight-color-light: #7a9fc2;
+    --highlight-color-light: #cadded;
 
 }
 
@@ -94,6 +94,37 @@ h2 {
 }
 
 
+/* Footer / Contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2{
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--highlight-color-light);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#contact .social-links i {
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: white;
+
+}
 
 
 /* grid visualization CSS for testing */
