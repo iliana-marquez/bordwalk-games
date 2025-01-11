@@ -82,7 +82,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* New games sections */
+#new-games .card {
+    margin-bottom: 1.5rem;
+}
 
+
+/* Fav games sections */
+#fav-games .card {
+    margin-bottom: 1.5rem;
+}
 
 
 
@@ -106,12 +115,20 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+
+    #fav-games .card-text {
+        min-height: 144px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up*/
 @media screen and (min-width: 992px) {
     #services .card-body {
         min-height: auto;
+    }
+
+    #fav-games .card-text {
+        min-height: 96px;
     }
 }
 
@@ -120,10 +137,18 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+
+    #fav-games .card-text {
+        min-height: 168px;
+    }
 }
 /* Extra large devices (laptops, 1400px and up*/
 @media screen and (min-width: 1400px) {
     #services .card-body {
         min-height: 194px;
+    }
+
+    #fav-games .card-text {
+        min-height: 144px;
     }
 }
