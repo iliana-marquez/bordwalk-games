@@ -57,6 +57,31 @@ h2 {
     border-radius: 0;
 }
 
+/* buttons */
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-outline:hover {
+    border: 2px solid var(--highlight-color);
+    /* background-color: var(--secondary-color); */
+    color: var(--highlight-color);
+}
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
+}
+
 /* Navbar */
 #navbar{
     background-color: var(--primary-color);
