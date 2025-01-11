@@ -43,6 +43,12 @@ h3 {
     margin-bottom: 2rem;
 }
 
+.sharp-corners,
+/* Wildcar selects all elemnts that have a parent with the desired class*/
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* Navbar */
 #navbar{
     background-color: var(--primary-color);
